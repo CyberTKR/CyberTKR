@@ -1,291 +1,197 @@
 
-
-#### All inbuilt themes :-
-
-dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula
-
-<img src="https://res.cloudinary.com/anuraghazra/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stat Themes" width="600px"/>
-
-You can look at a preview for [all available themes](./themes/README.md) or checkout the [theme config file](./themes/index.js) & **you can also contribute new themes** if you like :D
-
-### Customization
-
-You can customize the appearance of your `Stats Card` or `Repo Card` however you want with URL params.
-
-#### Common Options:
-
-- `title_color` - Card's title color _(hex color)_
-- `text_color` - Body text color _(hex color)_
-- `icon_color` - Icons color if available _(hex color)_
-- `bg_color` - Card's background color _(hex color)_ **or** a gradient in the form of _angle,start,end_
-- `hide_border` - Hides the card's border _(boolean)_
-- `theme` - name of the theme, choose from [all available themes](./themes/README.md)
-- `cache_seconds` - set the cache header manually _(min: 1800, max: 86400)_
-- `locale` - set the language in the card _(e.g. cn, de, es, etc.)_
-
-##### Gradient in bg_color
-
-You can provide multiple comma-separated values in bg_color option to render a gradient, the format of the gradient is :-
-
-```
-&bg_color=DEG,COLOR1,COLOR2,COLOR3...COLOR10
-```
-
-> Note on cache: Repo cards have a default cache of 4 hours (14400 seconds) if the fork count & star count is less than 1k, otherwise, it's 2 hours (7200 seconds). Also, note that the cache is clamped to a minimum of 2 hours and a maximum of 24 hours
-
-#### Stats Card Exclusive Options:
-
-- `hide` - Hides the specified items from stats _(Comma-separated values)_
-- `hide_title` - _(boolean)_
-- `hide_rank` - _(boolean)_
-- `hide_border` - _(boolean)_
-- `show_icons` - _(boolean)_
-- `include_all_commits` - Count total commits instead of just the current year commits _(boolean)_
-- `count_private` - Count private commits _(boolean)_
-- `line_height` - Sets the line-height between text _(number)_
-- `custom_title` - Sets a custom title for the card
-
-#### Repo Card Exclusive Options:
-
-- `show_owner` - Show the owner name of the repo _(boolean)_
-
-#### Language Card Exclusive Options:
-
-- `hide` - Hide the languages specified from the card _(Comma-separated values)_
-- `hide_title` - _(boolean)_
-- `hide_border` - _(boolean)_
-- `layout` - Switch between two available layouts `default` & `compact`
-- `card_width` - Set the card's width manually _(number)_
-- `langs_count` - Show more languages on the card, between 1-10, defaults to 5 _(number)_
-- `exclude_repo` - Exclude specified repositories _(Comma-separated values)_
-- `custom_title` - Sets a custom title for the card
-
-> :warning: **Important:**
-> Language names should be uri-escaped, as specified in [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
-> (i.e: `c++` should become `c%2B%2B`, `jupyter notebook` should become `jupyter%20notebook`, etc.) You can use
-> [urlencoder.org](https://www.urlencoder.org/) to help you do this automatically.
-
-#### Wakatime Card Exclusive Options:
-
-- `hide_title` - _(boolean)_
-- `line_height` - Sets the line-height between text _(number)_
-- `hide_progress` - Hides the progress bar and percentage _(boolean)_
-- `custom_title` - Sets a custom title for the card
-- `layout` - Switch between two available layouts `default` & `compact`
-
----
-
-# GitHub Extra Pins
-
-GitHub extra pins allow you to pin more than 6 repositories in your profile using a GitHub readme profile.
-
-Yay! You are no longer limited to 6 pinned repositories.
-
-### Usage
-
-Copy-paste this code into your readme and change the links.
-
-Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
-
-```md
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-### Demo
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
-
-Use [show_owner](#customization) variable to include the repo's owner username
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/anuraghazra/github-readme-stats)
-
-# Top Languages Card
-
-The top languages card shows a GitHub user's top languages which have used the most.
-
-_NOTE: Top Languages does not indicate my skill level or anything like that, it's a GitHub metric of which languages have the most code on GitHub. It's a new feature of github-readme-stats._
-
-### Usage
-
-Copy-paste this code into your readme and change the links.
-
-Endpoint: `api/top-langs?username=anuraghazra`
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-### Exclude individual repositories
-
-You can use `?exclude_repo=repo1,repo2` parameter to exclude individual repositories.
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-### Hide individual languages
-
-You can use `?hide=language1,language2` parameter to hide individual languages.
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-### Show more languages
-
-You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 10 (inclusive), and the default is 5.
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-### Compact Language Card Layout
-
-You can use the `&layout=compact` option to change the card design.
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-### Demo
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
-
-- Compact layout
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-# Wakatime Week Stats
-
-Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
-
-```md
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-### Demo
-
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod)](https://github.com/anuraghazra/github-readme-stats)
-
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod&hide_progress=true)](https://github.com/anuraghazra/github-readme-stats)
-
-- Compact layout
-
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-### All Demos
-
-- Default
-
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
-
-- Hiding specific stats
-
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,issues)
-
-- Showing icons
-
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=issues&show_icons=true)
-
-- Include All Commits
-
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&include_all_commits=true)
-
-- Themes
-
-Choose from any of the [default themes](#themes)
-
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
-
-- Gradient
-
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
-
-- Customizing stats card
-
-![Anurag's github stats](https://github-readme-stats.vercel.app/api/?username=anuraghazra&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
-
-- Setting card locale
-
-![Anurag's github stats](https://github-readme-stats.vercel.app/api/?username=anuraghazra&locale=es)
-
-- Customizing repo card
-
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=anuraghazra&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
-
-- Top languages
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
-
-- Wakatime card
-
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-### Quick Tip (Align The Repo Cards)
-
-You usually won't be able to layout the images side by side. To do that you can use this approach:
-
-```md
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
-</a>
-```
-
-## Deploy on your own Vercel instance
-
-#### [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
-
-Since the GitHub API only allows 5k requests per hour, my `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you don't have to worry about anything. Click on the deploy button to get started!
-
-NOTE: Since [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/anuraghazra/github-readme-stats)
-
-<details>
- <summary><b> Guide on setting up Vercel  🔨 </b></summary>
-
-1. Go to [vercel.com](https://vercel.com/)
-1. Click on `Log in`
-   ![](https://files.catbox.moe/tct1wg.png)
-1. Sign in with GitHub by pressing `Continue with GitHub`
-   ![](https://files.catbox.moe/btd78j.jpeg)
-1. Sign into GitHub and allow access to all repositories, if prompted
-1. Fork this repo
-1. Go back to your [Vercel dashboard](https://vercel.com/dashboard)
-1. Select `Import Project`
-   ![](https://files.catbox.moe/qckos0.png)
-1. Select `Import Git Repository`
-   ![](https://files.catbox.moe/pqub9q.png)
-1. Select root and keep everything as is, just add your environment variable named PAT_1 (as shown), which will contain a personal access token (PAT), which you can easily create [here](https://github.com/settings/tokens/new) (leave everything as is, just name it something, it can be anything you want)
-   ![](https://files.catbox.moe/0ez4g7.png)
-1. Click deploy, and you're good to go. See your domains to use the API!
-
-</details>
-
-## :sparkling_heart: Support the project
-
-I open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,
-this takes time. You can use this service for free.
-
-However, if you are using this project and happy with it or just want to encourage me to continue creating stuff, there are few ways you can do it :-
-
-- Giving proper credit when you use github-readme-stats on your readme, linking back to it :D
-- Starring and sharing the project :rocket:
-- [![paypal.me/anuraghazra](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/anuraghazra) - You can make one-time donations via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:
-
-Thanks! :heart:
-
----
-
-![https://vercel.com](https://res.cloudinary.com/anuraghazra/image/upload/v1597827714/powered-by-vercel_1_ug4uro.svg)
-
-Contributions are welcome! <3
-
-Made with :heart: and JavaScript.
+      <svg
+        width="495"
+        height="195"
+        viewBox="0 0 495 195"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #2f80ed;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #333;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    .rank-text {
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333; 
+      animation: scaleInAnimation 0.3s ease-in-out forwards;
+    }
+    
+    .bold { font-weight: 700 }
+    .icon {
+      fill: #4c71f2;
+      display: none;
+    }
+    
+    .rank-circle-rim {
+      stroke: #2f80ed;
+      fill: none;
+      stroke-width: 6;
+      opacity: 0.2;
+    }
+    .rank-circle {
+      stroke: #2f80ed;
+      stroke-dasharray: 250;
+      fill: none;
+      stroke-width: 6;
+      stroke-linecap: round;
+      opacity: 0.8;
+      transform-origin: -10px 8px;
+      transform: rotate(-90deg);
+      animation: rankAnimation 1s forwards ease-in-out;
+    }
+    
+    @keyframes rankAnimation {
+      from {
+        stroke-dashoffset: 251.32741228718345;
+      }
+      to {
+        stroke-dashoffset: 126.93767887292994;
+      }
+    }
+  
+  
+
+          
+    /* Animations */
+    @keyframes scaleInAnimation {
+      from {
+        transform: translate(-5px, 5px) scale(0);
+      }
+      to {
+        transform: translate(-5px, 5px) scale(1);
+      }
+    }
+    @keyframes fadeInAnimation {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  
+        </style>
+
+        undefined
+
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#E4E2E2"
+          width="494"
+          fill="#fffefe"
+          stroke-opacity="1"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >TKR's GitHub Stats</text>
+    </g>
+      </g>
+    
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <g data-testid="rank-circle" 
+          transform="translate(400, 47.5)">
+        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
+        <circle class="rank-circle" cx="-10" cy="8" r="40" />
+        <g class="rank-text">
+          <text
+            x="0"
+            y="0"
+            alignment-baseline="central"
+            dominant-baseline="central"
+            text-anchor="middle"
+          >
+            A+
+          </text>
+        </g>
+      </g>
+
+    <svg x="0" y="0">
+      <g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
+      
+      <text class="stat bold"  y="12.5">Total Stars:</text>
+      <text 
+        class="stat" 
+        x="170" 
+        y="12.5" 
+        data-testid="stars"
+      >46</text>
+    </g>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
+      
+      <text class="stat bold"  y="12.5">Total Commits (2020):</text>
+      <text 
+        class="stat" 
+        x="170" 
+        y="12.5" 
+        data-testid="commits"
+      >111</text>
+    </g>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
+      
+      <text class="stat bold"  y="12.5">Total PRs:</text>
+      <text 
+        class="stat" 
+        x="170" 
+        y="12.5" 
+        data-testid="prs"
+      >3</text>
+    </g>
+  </g><g transform="translate(0, 75)">
+    <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
+      
+      <text class="stat bold"  y="12.5">Total Issues:</text>
+      <text 
+        class="stat" 
+        x="170" 
+        y="12.5" 
+        data-testid="issues"
+      >2</text>
+    </g>
+  </g><g transform="translate(0, 100)">
+    <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
+      
+      <text class="stat bold"  y="12.5">Contributed to:</text>
+      <text 
+        class="stat" 
+        x="170" 
+        y="12.5" 
+        data-testid="contribs"
+      >3</text>
+    </g>
+  </g>
+    </svg> 
+  
+        </g>
+      </svg>
+    
