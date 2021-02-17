@@ -1,1 +1,23 @@
-<br><b><a href="https://github.com/CyberTKR/"><img src="https://i.hizliresim.com/wAmesd.png" alt="✦ ► CyberTK QR UPDATECANCELLER◄ ✦" /></a></b></br>
+# Welcome to My Profile! 👋 
+![https://github.com/CyberTKR](https://img.shields.io/badge/Github-CyberTKR-black) ![Profile views](https://gpvc.arturio.dev/quiec)
+![https://instagram.com/_aquariusman](https://img.shields.io/badge/Instagram-__aquariusman-purple) ![Profile views](https://gpvc.arturio.dev/quiec)
+<details>
+  <summary>Q&A</summary>
+
+Q | A
+--- | --- 
+**My Computer**  | `İmac, Windows"`
+**Editor**  | `Visual Studio Code, Atom, Pycharms`
+**Platforms I develop for** | `Desktop, Mobile, Web, CLI`
+**Languages I know**  | `Python, JS, HTML`
+**Languages I learning** | `Go, C#, C++, Swift, Ruby`
+
+</details>
+
+<details>
+  <summary>Stats</summary>
+
+ ‏‏‎ ‎|  ‏‏‎ 
+ --- | ---
+![Metrics](https://metrics.lecoq.io/CyberTKR?template=classic&config.timezone=Europe%2FIstanbul&config.animated=true) | [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=ar5xr05io7p2lrvlzz8cgpz7f&cover_image=true)](https://github.com/kittinan/spotify-github-profile)
+</details>
