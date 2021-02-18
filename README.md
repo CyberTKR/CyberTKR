@@ -16,7 +16,6 @@ Q | A
 </details>
 
 <details>
-  <summary>Stats</summary>
 
  ‏‏‎ ‎|  ‏‏‎ 
  --- | ---
