@@ -4,7 +4,7 @@
 ![https://youtube.com/CyberTK](https://img.shields.io/badge/https://youtube.com/-CyberTK-red)
 
 
-Q | A
+
  ‏‏‎ ‎|  ‏‏‎ 
  --- | ---
 **My Computer**  | `İmac, Windows"`
