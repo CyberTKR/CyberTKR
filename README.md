@@ -5,8 +5,7 @@
 <details>
   <summary>Q&A</summary>
 
-Q | A
---- | --- 
+
 **My Computer**  | `İmac, Windows"`
 **Editor**  | `Visual Studio Code, Atom, Pycharms`
 **Platforms I develop for** | `Desktop, Mobile, Web, CLI`
@@ -15,9 +14,9 @@ Q | A
 
 </details>
 
-<details>
+
 
  ‏‏‎ ‎|  ‏‏‎ 
  --- | ---
 ![Metrics](https://metrics.lecoq.io/CyberTKR?template=classic&config.timezone=Europe%2FIstanbul&config.animated=true) | [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=ar5xr05io7p2lrvlzz8cgpz7f&cover_image=true)](https://github.com/kittinan/spotify-github-profile)
-</details>
+
