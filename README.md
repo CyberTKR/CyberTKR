@@ -21,5 +21,5 @@
   src="https://opencollective.com/armeria/contributors.svg?width=890&button=false"
   title="Contributors"
   alt="Contributors"
-/img>
+>
 
