@@ -1,7 +1,6 @@
-<html
-<head
-</head>
-<body
+<html>
+<body>
+
 <div class="p-2 my-2">
       <span class="border color-border-success rounded-1 text-green p-1">New</span> <strong>CyberTKR/CyberTKR</strong> is now a special
       repository: its <code>README.md</code> will appear on your profile!
