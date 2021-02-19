@@ -1,6 +1,6 @@
 
 
-<button type="button" class="btn btn-primary">Primary <span class="badge">7</span></button>
+<h1>Example <span class="label label-default">New</span></h1>
 
 
 # Welcome to My Profile! 👋 
