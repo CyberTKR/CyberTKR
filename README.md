@@ -1,7 +1,7 @@
 <html>
-<body>
+
 <button type="button" class="btn btn-primary">Primary <span class="badge">7</span></button>
-</body>
+
 </html>
 # Welcome to My Profile! 👋 
 ![https://github.com/CyberTKR](https://img.shields.io/badge/Github-CyberTKR-black)
