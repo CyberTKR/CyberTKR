@@ -1,3 +1,4 @@
+<html>
 <div class="text-blue mb-2">
   .text-blue on white
 </div>
@@ -24,3 +25,4 @@
 <div class="text-purple mb-2">
   .text-purple on white
 </div>
+ </html>
