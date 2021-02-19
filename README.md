@@ -1,7 +1,7 @@
 
 
 <html>
-<span class="label label--green">New</span>
+<span style="color: green"> Some green text </span>
  </html>
 
 # Welcome to My Profile! 👋 
