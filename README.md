@@ -1,4 +1,6 @@
 <html
+<head
+</head>
 <body
 <span class="border color-border-success rounded-1 text-green p-1">New</span>
 </body>
