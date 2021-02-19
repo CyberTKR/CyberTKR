@@ -1,12 +1,6 @@
 <html>
 <body>
-
-<div class="p-2 my-2">
-      <span class="border color-border-success rounded-1 text-green p-1">New</span> <strong>CyberTKR/CyberTKR</strong> is now a special
-      repository: its <code>README.md</code> will appear on your profile!
-      <a href="https://support.github.com/contact/feedback?category=profile&amp;subject=Profile+README">Send
-      feedback</a>.
-    </div>
+<button type="button" class="btn btn-primary">Primary <span class="badge">7</span></button>
 </body>
 </html>
 # Welcome to My Profile! 👋 
