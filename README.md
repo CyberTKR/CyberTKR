@@ -1,28 +1,26 @@
-
-
-<html>
-<span style="color:orange;">Word up</span>
- </html>
-
-# Welcome to My Profile! 👋 
-![https://github.com/CyberTKR](https://img.shields.io/badge/Github-CyberTKR-black)
-![https://instagram.com/_aquariusman](https://img.shields.io/badge/Instagram-__aquariusman-purple) ![Profile views](https://gpvc.arturio.dev/quiec)
-![https://youtube.com/CyberTK](https://img.shields.io/badge/https://youtube.com/-CyberTK-red)
-
-
-
- ‏‏‎ ‎|  ‏‏‎ 
- --- | ---
-**My Computer**  | `İmac, Windows"`
-**Editor**  | `Visual Studio Code, Atom, Pycharms`
-**Platforms I develop for** | `Desktop, Mobile, Web, CLI`
-**Languages I know**  | `Python, JS, HTML`
-**Languages I learning** | `Go, C#, C++, Swift, Ruby`
-
-
- ‏‏‎ ‎|  ‏‏‎ 
- --- | ---
-![Metrics](https://metrics.lecoq.io/CyberTKR?template=classic&config.timezone=Europe%2FIstanbul&config.animated=true) | ![spotify-github-profile](/img/example.svg)
-
-<img src="https://opencollective.com/armeria/contributors.svg?width=890&button=false" alt="Contributors">
-
+<div class="text-blue mb-2">
+  .text-blue on white
+</div>
+<div class="text-gray-dark mb-2">
+  .text-gray-dark on white
+</div>
+<div class="text-gray mb-2">
+  .text-gray on white
+</div>
+<div class="text-red mb-2">
+  .text-red on white
+</div>
+<div class="text-orange mb-2">
+  .text-orange on white
+</div>
+<span class="float-left text-red tooltipped tooltipped-n" aria-label="Does not meet accessibility standards"><%= octicon("alert") %></span>
+<div class="text-orange-light mb-2">
+  .text-orange-light on white
+</div>
+<span class="float-left text-red tooltipped tooltipped-n" aria-label="Does not meet accessibility standards"><%= octicon("alert") %></span>
+<div class="text-green mb-2 ml-4">
+  .text-green on white
+</div>
+<div class="text-purple mb-2">
+  .text-purple on white
+</div>
