@@ -1,6 +1,8 @@
-<html 
+<html
+<body
 <span class="border color-border-success rounded-1 text-green p-1">New</span>
-     </html
+</body>
+</html>
 # Welcome to My Profile! 👋 
 ![https://github.com/CyberTKR](https://img.shields.io/badge/Github-CyberTKR-black)
 ![https://instagram.com/_aquariusman](https://img.shields.io/badge/Instagram-__aquariusman-purple) ![Profile views](https://gpvc.arturio.dev/quiec)
