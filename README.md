@@ -1,7 +1,7 @@
 
 
 <html>
-<h1><span class="label label--green">New</span></h1>
+<span class="label label--green">New</span>
  </html>
 
 # Welcome to My Profile! 👋 
