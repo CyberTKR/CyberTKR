@@ -1,4 +1,4 @@
-### hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+### Hey there <img src="https://media.giphy.com/media/M3nwJpDEUxkCzVftCi/giphy.gif" width="25px">
 <a href="https://github.com/CyberTKR">
   <img align="left" alt="CyberTKR" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/discord.svg" />
 </a>
