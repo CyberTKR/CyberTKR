@@ -1,25 +1,25 @@
 ### hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 <a href="https://github.com/CyberTKR">
-  <img align="left" alt="Abhishek's Discord" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" />
+  <img align="left" alt="CyberTKR" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/discord.svg" />
 </a>
 <a href="https://twitter.com/CyberTKR">
-  <img align="left" alt="CyberTKR | Twitter" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
+  <img align="left" alt="CyberTKR | Twitter" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/twitter.svg" />
 </a>
 <a href="https://instagram.com/_aquariusman_">
   <img align="left" alt="CyberTKR | İnstagram" width="22px" src="https://svgshare.com/i/dPT.svg" />
 </a>
 <a href="https://www.linkedin.com/in/tolga-k-469586212/">
-  <img align="left" alt="CyberTKR's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
+  <img align="left" alt="CyberTKR's LinkedIN" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/linkedin.svg" />
 </a>
 <a href="https://github.com/CyberTKR">
-  <img align="left" alt="CyberTKR's Spotify" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/spotify.svg" />
+  <img align="left" alt="CyberTKR's Spotify" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/spotify.svg" />
 </a>
 
 ![](https://visitor-badge.glitch.me/badge?page_id=CyberTKR)
 
 <br />
 
-hi, i'm [ Tolg KR ](https://cybertkr.com/), a passionate self-taught web and backend developer and a freelance software engineer from Netherlands. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality of the things I build.
+Hi, i'm [ Tolg KR ](https://cybertkr.com/), a passionate self-taught web and backend developer and a freelance software engineer from Netherlands. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality of the things I build.
 
 i am also an open-source enthusiast and maintainer. i learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.
 
@@ -45,11 +45,11 @@ i am also an open-source enthusiast and maintainer. i learned a lot from the ope
 📊 **this week i spent my time on:**
 <!--START_SECTION:waka-->
 ```text
-Python   13 hrs 4 mins       ██████████████████▓░░░░░░   74.45 % 
-CSS          30 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.92 % 
-JSON         13 mins         ████████████████░░░░░░░░░   65 % 
-HTML         1 min           ████████░░░░░░░░░░░░░░░░░   40 % 
-PHP         1 min            ██░░░░░░░░░░░░░░░░░░░░░░░   17 % 
+Python   26 297,4383 saat       █████████████████████████████████████   100 % 
+CSS          600 dakika         ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   7.92 % 
+JSON         8 765,81277 saat   ████████████████████████████░░░░░░░░░   65.2 % 
+HTML         730,484398 saat    █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░   40.5 % 
+PHP         4320 dakika         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   17.2 % 
 ```
 <!--END_SECTION:waka-->
 
