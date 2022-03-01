@@ -14,6 +14,7 @@
 <a href="https://github.com/CyberTKR">
   <img align="left" alt="CyberTKR's Spotify" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/spotify.svg" />
 </a>
+
 ![](https://visitor-badge.glitch.me/badge?page_id=CyberTKR)
 
 ![](https://komarev.com/ghpvc/?username=CyberTKR&label=PROFILE+VIEWS)
