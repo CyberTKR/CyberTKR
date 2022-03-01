@@ -17,7 +17,7 @@
 
 ![](https://visitor-badge.glitch.me/badge?page_id=CyberTKR)
 
-![](https://komarev.com/ghpvc/?username=CyberTKR&label=PROFILE+VIEWS)
+![](https://komarev.com/ghpvc/?username=CyberTKR&label=Profile+Visit)
 
 <br />
 
