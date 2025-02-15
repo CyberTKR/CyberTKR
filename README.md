@@ -1,7 +1,7 @@
 ### Hey there <img src="https://media.giphy.com/media/M3nwJpDEUxkCzVftCi/giphy.gif" width="25px">
-<a href="https://github.com/CyberTKR">
+<!--<a href="https://github.com/CyberTKR">
   <img align="left" alt="CyberTKR" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/discord.svg" />
-</a>
+</a>-->
 
 <a href="mailto:tolg@cybertkr.com">
   <img align="left" alt="CyberTKR's LinkedIN" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/email.svg" />
