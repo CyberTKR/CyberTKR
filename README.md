@@ -2,18 +2,11 @@
 <a href="https://github.com/CyberTKR">
   <img align="left" alt="CyberTKR" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/discord.svg" />
 </a>
-<a href="https://twitter.com/CyberTKR">
-  <img align="left" alt="CyberTKR | Twitter" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/twitter.svg" />
-</a>
-<a href="https://instagram.com/eyxztc">
-  <img align="left" alt="CyberTKR | İnstagram" width="22px" src="https://svgshare.com/i/dPT.svg" />
-</a>
+
 <a href="https://www.linkedin.com/in/tolga-k-469586212/">
   <img align="left" alt="CyberTKR's LinkedIN" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/linkedin.svg" />
 </a>
-<a href="https://github.com/CyberTKR">
-  <img align="left" alt="CyberTKR's Spotify" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/spotify.svg" />
-</a>
+
 
 <!-- >![](https://visitor-badge.glitch.me/badge?page_id=CyberTKR) -->
 
