@@ -5,7 +5,7 @@
 <a href="https://twitter.com/CyberTKR">
   <img align="left" alt="CyberTKR | Twitter" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/twitter.svg" />
 </a>
-<a href="https://instagram.com/_aquariusman_">
+<a href="https://instagram.com/eyxztc">
   <img align="left" alt="CyberTKR | İnstagram" width="22px" src="https://svgshare.com/i/dPT.svg" />
 </a>
 <a href="https://www.linkedin.com/in/tolga-k-469586212/">
