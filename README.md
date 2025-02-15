@@ -4,7 +4,7 @@
 </a>
 
 <a href="mailto:tolg@cybertkr.com">
-  <img align="left" alt="CyberTKR's LinkedIN" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/linkedin.svg" />
+  <img align="left" alt="CyberTKR's LinkedIN" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/email.svg" />
 </a>
 
 
