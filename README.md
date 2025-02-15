@@ -3,7 +3,7 @@
   <img align="left" alt="CyberTKR" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/discord.svg" />
 </a>
 
-<a href="https://www.linkedin.com/in/tolga-k-469586212/">
+<a href="mailto:tolg@cybertkr.com">
   <img align="left" alt="CyberTKR's LinkedIN" width="22px" src="https://github.com/CyberTKR/CyberTKR/blob/main/img/linkedin.svg" />
 </a>
 
