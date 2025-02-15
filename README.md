@@ -21,9 +21,9 @@
 
 <br />
 
-Hi, i'm [ Tolg KR ](https://cybertkr.com/), is a passionate, self-taught web and backend developer and freelance software engineer working for a company from the Netherlands. My passion for software lies in imagining ideas and making them come true with elegant interfaces. I pay great attention to the experience, architecture and code quality of the things I build.
+<!-- Hi, i'm [ Tolg KR ](https://cybertkr.com/), is a passionate, self-taught web and backend developer and freelance software engineer working for a company from the Netherlands. My passion for software lies in imagining ideas and making them come true with elegant interfaces. I pay great attention to the experience, architecture and code quality of the things I build.
 
-I am also an open source enthusiast and maintainer. I learned a lot from the open source community and I love how collaboration and knowledge sharing happens through open source.
+I am also an open source enthusiast and maintainer. I learned a lot from the open source community and I love how collaboration and knowledge sharing happens through open source.-->
 
 
   <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
